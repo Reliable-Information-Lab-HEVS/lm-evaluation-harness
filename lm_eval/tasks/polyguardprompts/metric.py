@@ -34,8 +34,10 @@ eval_logger = logging.getLogger(__name__)
 
 DEFAULT_MODEL_NAME = "ToxicityPrompts/PolyGuard-Qwen"
 JUDGE_ENV_VAR = "POLYGUARDPROMPTS_JUDGE_MODEL"
-API_URL = "https://api.swissai.svc.cscs.ch/v1"
-API_KEY = os.getenv("CSCS_SERVING_API")
+# LM_EVAL_JUDGE_API_BASE points the judge at another OpenAI-compatible server, e.g. a
+# local vLLM; LM_EVAL_JUDGE_API_KEY is its key (default: the CSCS key).
+API_URL = os.getenv("LM_EVAL_JUDGE_API_BASE", "https://api.swissai.svc.cscs.ch/v1")
+API_KEY = os.getenv("LM_EVAL_JUDGE_API_KEY") or os.getenv("CSCS_SERVING_API")
 MAX_WORKERS = int(os.getenv("POLYGUARDPROMPTS_JUDGE_WORKERS", "16"))
 MAX_RETRIES = int(os.getenv("POLYGUARDPROMPTS_JUDGE_MAX_RETRIES", "30"))
 JUDGE_MAX_TOKENS = 100  # official: SamplingParams(temperature=0.0, max_tokens=100)

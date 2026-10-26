@@ -50,8 +50,10 @@ eval_logger = logging.getLogger(__name__)
 
 # Llama-3.3-70B is no longer served; Qwen3.8-27B is the hosted open replacement.
 DEFAULT_MODEL_NAME = "Qwen/Qwen3.8-27B"
-API_URL = "https://api.swissai.svc.cscs.ch/v1"
-API_KEY = os.getenv("CSCS_SERVING_API")
+# LM_EVAL_JUDGE_API_BASE points the judge at another OpenAI-compatible server, e.g. a
+# local vLLM; LM_EVAL_JUDGE_API_KEY is its key (default: the CSCS key).
+API_URL = os.getenv("LM_EVAL_JUDGE_API_BASE", "https://api.swissai.svc.cscs.ch/v1")
+API_KEY = os.getenv("LM_EVAL_JUDGE_API_KEY") or os.getenv("CSCS_SERVING_API")
 
 JUDGE_ENV = "LINGUASAFE_JUDGE_MODEL"
 REJECT_JUDGE_ENV = "LINGUASAFE_REJECT_JUDGE_MODEL"  # defaults to LINGUASAFE_JUDGE_MODEL

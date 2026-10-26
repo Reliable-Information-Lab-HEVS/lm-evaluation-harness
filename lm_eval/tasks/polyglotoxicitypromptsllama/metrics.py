@@ -48,8 +48,10 @@ TOXIC_THRESHOLD = 0.5  # paper: a generation counts as toxic if its score >= 0.5
 MAX_WORKERS = int(os.getenv("POLYGLOTOXICITY_JUDGE_WORKERS", "32"))
 PROGRESS_EVERY = 1000
 
-API_URL = "https://api.swissai.svc.cscs.ch/v1"
-API_KEY = os.getenv("CSCS_SERVING_API")
+# LM_EVAL_JUDGE_API_BASE points the judge at another OpenAI-compatible server, e.g. a
+# local vLLM; LM_EVAL_JUDGE_API_KEY is its key (default: the CSCS key).
+API_URL = os.getenv("LM_EVAL_JUDGE_API_BASE", "https://api.swissai.svc.cscs.ch/v1")
+API_KEY = os.getenv("LM_EVAL_JUDGE_API_KEY") or os.getenv("CSCS_SERVING_API")
 
 eval_logger = logging.getLogger(__name__)
 

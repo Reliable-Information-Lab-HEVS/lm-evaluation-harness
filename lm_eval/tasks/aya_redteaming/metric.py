@@ -46,11 +46,13 @@ from lm_eval.api.rate_limiter import acquire_judge_rate_limit
 # Llama-3.3-70B is no longer served; Qwen3.8-27B is the hosted open replacement.
 DEFAULT_MODEL_NAME = "Qwen/Qwen3.8-27B"
 
-API_URL = "https://api.swissai.svc.cscs.ch/v1"
-API_KEY = os.getenv("CSCS_SERVING_API")
+# LM_EVAL_JUDGE_API_BASE points the judge at another OpenAI-compatible server, e.g. a
+# local vLLM; LM_EVAL_JUDGE_API_KEY is its key (default: the CSCS key).
+API_URL = os.getenv("LM_EVAL_JUDGE_API_BASE", "https://api.swissai.svc.cscs.ch/v1")
+API_KEY = os.getenv("LM_EVAL_JUDGE_API_KEY") or os.getenv("CSCS_SERVING_API")
 if API_KEY is None or API_KEY.strip() == "":
     raise RuntimeError(
-        "CSCS_SERVING_API environment variable not set. Please set it to your SwissAI API key to use this evaluation script."
+        "Set LM_EVAL_JUDGE_API_KEY or CSCS_SERVING_API to the judge API key to use this evaluation script."
     )
 
 TASK_PREFIX = "aya_redteaming"
