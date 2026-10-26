@@ -22,6 +22,9 @@ aggregate_metric_list:
   - metric: harmful_response_rate
     aggregation: mean
     weight_by_size: true
+  - metric: harmful_response_rate_strict
+    aggregation: mean
+    weight_by_size: true
   - metric: refusal_rate_harmful
     aggregation: mean
     weight_by_size: true

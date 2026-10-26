@@ -28,6 +28,9 @@ metric_list:
   - metric: unsafe_rate
     aggregation: !function metrics.unsafe_rate_agg
     higher_is_better: false
+  - metric: unsafe_rate_strict
+    aggregation: !function metrics.unsafe_rate_strict_agg
+    higher_is_better: false
   - metric: judge_error_rate
     aggregation: !function metrics.judge_error_rate_agg
     higher_is_better: false

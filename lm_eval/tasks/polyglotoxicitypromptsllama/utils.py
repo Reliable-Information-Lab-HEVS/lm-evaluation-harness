@@ -90,6 +90,7 @@ V2_METRICS = [
     "expected_max_toxicity",
     "toxicity_probability",
     "unsafe_rate",
+    "unsafe_rate_strict",
     "judge_error_rate",
 ]
 

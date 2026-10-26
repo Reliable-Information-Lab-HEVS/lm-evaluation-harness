@@ -9,6 +9,9 @@ metric_list:
   - metric: harmful_response_rate
     aggregation: !function metric.harmful_response_rate
     higher_is_better: false
+  - metric: harmful_response_rate_strict
+    aggregation: !function metric.harmful_response_rate_strict
+    higher_is_better: false
   - metric: refusal_rate_harmful
     aggregation: !function metric.refusal_rate_harmful
     higher_is_better: true

@@ -30,6 +30,9 @@ aggregate_metric_list:
   - metric: unsafe_rate
     aggregation: mean
     weight_by_size: true
+  - metric: unsafe_rate_strict
+    aggregation: mean
+    weight_by_size: true
   - metric: judge_error_rate
     aggregation: mean
     weight_by_size: true
