@@ -69511,6 +69511,336 @@
       "tags": [],
       "yaml_path": "lingoly/lingoly_nocontext.yaml"
     },
+    "linguasafe": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe.yaml"
+    },
+    "linguasafe_direct": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct.yaml"
+    },
+    "linguasafe_direct_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_ar.yaml"
+    },
+    "linguasafe_direct_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_bn.yaml"
+    },
+    "linguasafe_direct_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_cs.yaml"
+    },
+    "linguasafe_direct_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_en.yaml"
+    },
+    "linguasafe_direct_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_hu.yaml"
+    },
+    "linguasafe_direct_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_ko.yaml"
+    },
+    "linguasafe_direct_ms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_ms.yaml"
+    },
+    "linguasafe_direct_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_ru.yaml"
+    },
+    "linguasafe_direct_sr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_sr.yaml"
+    },
+    "linguasafe_direct_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_th.yaml"
+    },
+    "linguasafe_direct_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_vi.yaml"
+    },
+    "linguasafe_direct_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_direct_zh.yaml"
+    },
+    "linguasafe_indirect": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect.yaml"
+    },
+    "linguasafe_indirect_all": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all.yaml"
+    },
+    "linguasafe_indirect_all_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_ar.yaml"
+    },
+    "linguasafe_indirect_all_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_bn.yaml"
+    },
+    "linguasafe_indirect_all_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_cs.yaml"
+    },
+    "linguasafe_indirect_all_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_en.yaml"
+    },
+    "linguasafe_indirect_all_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_hu.yaml"
+    },
+    "linguasafe_indirect_all_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_ko.yaml"
+    },
+    "linguasafe_indirect_all_ms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_ms.yaml"
+    },
+    "linguasafe_indirect_all_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_ru.yaml"
+    },
+    "linguasafe_indirect_all_sr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_sr.yaml"
+    },
+    "linguasafe_indirect_all_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_th.yaml"
+    },
+    "linguasafe_indirect_all_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_vi.yaml"
+    },
+    "linguasafe_indirect_all_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_all_zh.yaml"
+    },
+    "linguasafe_indirect_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_ar.yaml"
+    },
+    "linguasafe_indirect_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_bn.yaml"
+    },
+    "linguasafe_indirect_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_cs.yaml"
+    },
+    "linguasafe_indirect_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_en.yaml"
+    },
+    "linguasafe_indirect_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_hu.yaml"
+    },
+    "linguasafe_indirect_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_ko.yaml"
+    },
+    "linguasafe_indirect_ms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_ms.yaml"
+    },
+    "linguasafe_indirect_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_ru.yaml"
+    },
+    "linguasafe_indirect_sr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_sr.yaml"
+    },
+    "linguasafe_indirect_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_th.yaml"
+    },
+    "linguasafe_indirect_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_vi.yaml"
+    },
+    "linguasafe_indirect_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_indirect_zh.yaml"
+    },
+    "linguasafe_oversensitivity": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity.yaml"
+    },
+    "linguasafe_oversensitivity_all": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all.yaml"
+    },
+    "linguasafe_oversensitivity_all_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_ar.yaml"
+    },
+    "linguasafe_oversensitivity_all_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_bn.yaml"
+    },
+    "linguasafe_oversensitivity_all_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_cs.yaml"
+    },
+    "linguasafe_oversensitivity_all_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_en.yaml"
+    },
+    "linguasafe_oversensitivity_all_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_hu.yaml"
+    },
+    "linguasafe_oversensitivity_all_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_ko.yaml"
+    },
+    "linguasafe_oversensitivity_all_ms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_ms.yaml"
+    },
+    "linguasafe_oversensitivity_all_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_ru.yaml"
+    },
+    "linguasafe_oversensitivity_all_sr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_sr.yaml"
+    },
+    "linguasafe_oversensitivity_all_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_th.yaml"
+    },
+    "linguasafe_oversensitivity_all_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_vi.yaml"
+    },
+    "linguasafe_oversensitivity_all_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_all_zh.yaml"
+    },
+    "linguasafe_oversensitivity_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_ar.yaml"
+    },
+    "linguasafe_oversensitivity_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_bn.yaml"
+    },
+    "linguasafe_oversensitivity_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_cs.yaml"
+    },
+    "linguasafe_oversensitivity_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_en.yaml"
+    },
+    "linguasafe_oversensitivity_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_hu.yaml"
+    },
+    "linguasafe_oversensitivity_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_ko.yaml"
+    },
+    "linguasafe_oversensitivity_ms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_ms.yaml"
+    },
+    "linguasafe_oversensitivity_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_ru.yaml"
+    },
+    "linguasafe_oversensitivity_sr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_sr.yaml"
+    },
+    "linguasafe_oversensitivity_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_th.yaml"
+    },
+    "linguasafe_oversensitivity_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_vi.yaml"
+    },
+    "linguasafe_oversensitivity_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "linguasafe/linguasafe_oversensitivity_zh.yaml"
+    },
     "llama": {
       "kind": "TAG",
       "tags": [
@@ -101184,6 +101514,61 @@
       "tags": [],
       "yaml_path": "multijail/multijail_en.yaml"
     },
+    "multijail_intentional": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional.yaml"
+    },
+    "multijail_intentional_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_ar.yaml"
+    },
+    "multijail_intentional_bn": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_bn.yaml"
+    },
+    "multijail_intentional_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_en.yaml"
+    },
+    "multijail_intentional_it": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_it.yaml"
+    },
+    "multijail_intentional_jv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_jv.yaml"
+    },
+    "multijail_intentional_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_ko.yaml"
+    },
+    "multijail_intentional_sw": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_sw.yaml"
+    },
+    "multijail_intentional_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_th.yaml"
+    },
+    "multijail_intentional_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_vi.yaml"
+    },
+    "multijail_intentional_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "multijail/multijail_intentional_zh.yaml"
+    },
     "multijail_it": {
       "kind": "TASK",
       "tags": [],
@@ -107407,6 +107792,186 @@
       "tags": [],
       "yaml_path": "polyglotoxicitypromptsllama/small/polyglotoxicitypromptsllama_small_spanish.yaml"
     },
+    "polyglotoxicitypromptsllama_v2_small": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/polyglotoxicitypromptsllama_v2_small.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_arabic": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_arabic.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_chinese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_chinese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_czech": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_czech.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_dutch": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_dutch.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_english": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_english.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_french": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_french.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_german": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_german.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_hindi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_hindi.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_indonesian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_indonesian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_italian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_italian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_japanese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_japanese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_korean": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_korean.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_polish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_polish.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_portuguese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_portuguese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_russian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_russian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_spanish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_spanish.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_small_swedish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_small/polyglotoxicitypromptsllama_v2_small_swedish.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/polyglotoxicitypromptsllama_v2_wildchat.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_arabic": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_arabic.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_chinese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_chinese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_czech": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_czech.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_dutch": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_dutch.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_english": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_english.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_french": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_french.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_german": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_german.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_hindi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_hindi.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_indonesian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_indonesian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_italian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_italian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_japanese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_japanese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_korean": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_korean.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_polish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_polish.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_portuguese": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_portuguese.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_russian": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_russian.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_spanish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_spanish.yaml"
+    },
+    "polyglotoxicitypromptsllama_v2_wildchat_swedish": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyglotoxicitypromptsllama/v2_wildchat/polyglotoxicitypromptsllama_v2_wildchat_swedish.yaml"
+    },
     "polyglotoxicitypromptsllama_wildchat": {
       "kind": "GROUP",
       "tags": [],
@@ -107446,6 +108011,186 @@
       "kind": "TASK",
       "tags": [],
       "yaml_path": "polyglotoxicitypromptsllama/wildchat/polyglotoxicitypromptsllama_wildchat_spanish.yaml"
+    },
+    "polyguardprompts": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts.yaml"
+    },
+    "polyguardprompts_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_ar.yaml"
+    },
+    "polyguardprompts_cls": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls.yaml"
+    },
+    "polyguardprompts_cls_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_ar.yaml"
+    },
+    "polyguardprompts_cls_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_cs.yaml"
+    },
+    "polyguardprompts_cls_de": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_de.yaml"
+    },
+    "polyguardprompts_cls_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_en.yaml"
+    },
+    "polyguardprompts_cls_es": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_es.yaml"
+    },
+    "polyguardprompts_cls_fr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_fr.yaml"
+    },
+    "polyguardprompts_cls_hi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_hi.yaml"
+    },
+    "polyguardprompts_cls_it": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_it.yaml"
+    },
+    "polyguardprompts_cls_ja": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_ja.yaml"
+    },
+    "polyguardprompts_cls_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_ko.yaml"
+    },
+    "polyguardprompts_cls_nl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_nl.yaml"
+    },
+    "polyguardprompts_cls_pl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_pl.yaml"
+    },
+    "polyguardprompts_cls_pt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_pt.yaml"
+    },
+    "polyguardprompts_cls_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_ru.yaml"
+    },
+    "polyguardprompts_cls_sv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_sv.yaml"
+    },
+    "polyguardprompts_cls_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_th.yaml"
+    },
+    "polyguardprompts_cls_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cls_zh.yaml"
+    },
+    "polyguardprompts_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_cs.yaml"
+    },
+    "polyguardprompts_de": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_de.yaml"
+    },
+    "polyguardprompts_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_en.yaml"
+    },
+    "polyguardprompts_es": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_es.yaml"
+    },
+    "polyguardprompts_fr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_fr.yaml"
+    },
+    "polyguardprompts_hi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_hi.yaml"
+    },
+    "polyguardprompts_it": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_it.yaml"
+    },
+    "polyguardprompts_ja": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_ja.yaml"
+    },
+    "polyguardprompts_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_ko.yaml"
+    },
+    "polyguardprompts_nl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_nl.yaml"
+    },
+    "polyguardprompts_pl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_pl.yaml"
+    },
+    "polyguardprompts_pt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_pt.yaml"
+    },
+    "polyguardprompts_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_ru.yaml"
+    },
+    "polyguardprompts_sv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_sv.yaml"
+    },
+    "polyguardprompts_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_th.yaml"
+    },
+    "polyguardprompts_zh": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "polyguardprompts/polyguardprompts_zh.yaml"
     },
     "polymath": {
       "kind": "GROUP",
@@ -108282,6 +109027,416 @@
         "glue"
       ],
       "yaml_path": "glue/rte/default.yaml"
+    },
+    "rtp_lx": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "rtp_lx/rtp_lx.yaml"
+    },
+    "rtp_lx_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ar.yaml"
+    },
+    "rtp_lx_bcms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_bcms.yaml"
+    },
+    "rtp_lx_bg": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_bg.yaml"
+    },
+    "rtp_lx_ca": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ca.yaml"
+    },
+    "rtp_lx_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_cs.yaml"
+    },
+    "rtp_lx_cy": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_cy.yaml"
+    },
+    "rtp_lx_da": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_da.yaml"
+    },
+    "rtp_lx_de": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_de.yaml"
+    },
+    "rtp_lx_de_ch": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_de_ch.yaml"
+    },
+    "rtp_lx_el": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_el.yaml"
+    },
+    "rtp_lx_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_en.yaml"
+    },
+    "rtp_lx_es": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_es.yaml"
+    },
+    "rtp_lx_et": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_et.yaml"
+    },
+    "rtp_lx_fi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_fi.yaml"
+    },
+    "rtp_lx_fr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_fr.yaml"
+    },
+    "rtp_lx_he": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_he.yaml"
+    },
+    "rtp_lx_hi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_hi.yaml"
+    },
+    "rtp_lx_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_hu.yaml"
+    },
+    "rtp_lx_id": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_id.yaml"
+    },
+    "rtp_lx_it": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_it.yaml"
+    },
+    "rtp_lx_ja": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ja.yaml"
+    },
+    "rtp_lx_judge": {
+      "kind": "GROUP",
+      "tags": [],
+      "yaml_path": "rtp_lx/rtp_lx_judge.yaml"
+    },
+    "rtp_lx_judge_ar": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ar.yaml"
+    },
+    "rtp_lx_judge_bcms": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_bcms.yaml"
+    },
+    "rtp_lx_judge_bg": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_bg.yaml"
+    },
+    "rtp_lx_judge_ca": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ca.yaml"
+    },
+    "rtp_lx_judge_cs": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_cs.yaml"
+    },
+    "rtp_lx_judge_cy": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_cy.yaml"
+    },
+    "rtp_lx_judge_da": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_da.yaml"
+    },
+    "rtp_lx_judge_de": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_de.yaml"
+    },
+    "rtp_lx_judge_de_ch": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_de_ch.yaml"
+    },
+    "rtp_lx_judge_el": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_el.yaml"
+    },
+    "rtp_lx_judge_en": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_en.yaml"
+    },
+    "rtp_lx_judge_es": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_es.yaml"
+    },
+    "rtp_lx_judge_et": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_et.yaml"
+    },
+    "rtp_lx_judge_fi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_fi.yaml"
+    },
+    "rtp_lx_judge_fr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_fr.yaml"
+    },
+    "rtp_lx_judge_he": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_he.yaml"
+    },
+    "rtp_lx_judge_hi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_hi.yaml"
+    },
+    "rtp_lx_judge_hu": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_hu.yaml"
+    },
+    "rtp_lx_judge_id": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_id.yaml"
+    },
+    "rtp_lx_judge_it": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_it.yaml"
+    },
+    "rtp_lx_judge_ja": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ja.yaml"
+    },
+    "rtp_lx_judge_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ko.yaml"
+    },
+    "rtp_lx_judge_lt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_lt.yaml"
+    },
+    "rtp_lx_judge_lv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_lv.yaml"
+    },
+    "rtp_lx_judge_nl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_nl.yaml"
+    },
+    "rtp_lx_judge_no_nb": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_no_nb.yaml"
+    },
+    "rtp_lx_judge_pl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_pl.yaml"
+    },
+    "rtp_lx_judge_pt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_pt.yaml"
+    },
+    "rtp_lx_judge_ro": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ro.yaml"
+    },
+    "rtp_lx_judge_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_ru.yaml"
+    },
+    "rtp_lx_judge_sk": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_sk.yaml"
+    },
+    "rtp_lx_judge_sl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_sl.yaml"
+    },
+    "rtp_lx_judge_sv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_sv.yaml"
+    },
+    "rtp_lx_judge_sw": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_sw.yaml"
+    },
+    "rtp_lx_judge_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_th.yaml"
+    },
+    "rtp_lx_judge_tr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_tr.yaml"
+    },
+    "rtp_lx_judge_uk": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_uk.yaml"
+    },
+    "rtp_lx_judge_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_vi.yaml"
+    },
+    "rtp_lx_judge_zh_hans": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_zh_hans.yaml"
+    },
+    "rtp_lx_judge_zh_hant": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/classification/rtp_lx_judge_zh_hant.yaml"
+    },
+    "rtp_lx_ko": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ko.yaml"
+    },
+    "rtp_lx_lt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_lt.yaml"
+    },
+    "rtp_lx_lv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_lv.yaml"
+    },
+    "rtp_lx_nl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_nl.yaml"
+    },
+    "rtp_lx_no_nb": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_no_nb.yaml"
+    },
+    "rtp_lx_pl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_pl.yaml"
+    },
+    "rtp_lx_pt": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_pt.yaml"
+    },
+    "rtp_lx_ro": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ro.yaml"
+    },
+    "rtp_lx_ru": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_ru.yaml"
+    },
+    "rtp_lx_sk": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_sk.yaml"
+    },
+    "rtp_lx_sl": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_sl.yaml"
+    },
+    "rtp_lx_sv": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_sv.yaml"
+    },
+    "rtp_lx_sw": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_sw.yaml"
+    },
+    "rtp_lx_th": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_th.yaml"
+    },
+    "rtp_lx_tr": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_tr.yaml"
+    },
+    "rtp_lx_uk": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_uk.yaml"
+    },
+    "rtp_lx_vi": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_vi.yaml"
+    },
+    "rtp_lx_zh_hans": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_zh_hans.yaml"
+    },
+    "rtp_lx_zh_hant": {
+      "kind": "TASK",
+      "tags": [],
+      "yaml_path": "rtp_lx/generation/rtp_lx_zh_hant.yaml"
     },
     "ru_2wikimultihopqa": {
       "kind": "TASK",
@@ -118916,6 +120071,6 @@
       "yaml_path": "zhoblimp/you_yige.yaml"
     }
   },
-  "entry_count": 16201,
+  "entry_count": 16432,
   "schema_version": 1
 }
