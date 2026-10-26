@@ -40,13 +40,15 @@ def judge_log_dir() -> str:
 
 def sample_id_for(text: str) -> str:
     """Stable id for a prompt when the dataset has no id column."""
-    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha1(text.encode("utf-8"), usedforsecurity=False).hexdigest()[:16]
 
 
 def log_judge_record(task: str, record: dict[str, Any]) -> None:
     """Append one judge record for ``task``; never raises."""
     try:
-        sample_id = str(record.get("sample_id") or sample_id_for(str(record.get("prompt", ""))))
+        sample_id = str(
+            record.get("sample_id") or sample_id_for(str(record.get("prompt", "")))
+        )
         key = (task, sample_id, str(record.get("response", "")))
         with _LOCK:
             if key in _SEEN:
@@ -55,7 +57,9 @@ def log_judge_record(task: str, record: dict[str, Any]) -> None:
             out_dir = judge_log_dir()
             os.makedirs(out_dir, exist_ok=True)
             row = {"task": task, "sample_id": sample_id, "ts": time.time(), **record}
-            with open(os.path.join(out_dir, f"{task}.jsonl"), "a", encoding="utf-8") as f:
+            with open(
+                os.path.join(out_dir, f"{task}.jsonl"), "a", encoding="utf-8"
+            ) as f:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
     except Exception as e:  # noqa: BLE001
         eval_logger.warning(f"judge_log: failed to write record for {task}: {e}")

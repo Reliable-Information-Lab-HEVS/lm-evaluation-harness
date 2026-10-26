@@ -82,7 +82,7 @@ def write_template():
         "  do_sample: false",
         "  temperature: 0.0",
         "  max_new_tokens: 512",
-        "  # No stop strings beyond EOS: the default (fewshot delimiter \"\\n\\n\")",
+        '  # No stop strings beyond EOS: the default (fewshot delimiter "\\n\\n")',
         "  # would cut responses at the first blank line.",
         "  until: []",
         "metadata:",

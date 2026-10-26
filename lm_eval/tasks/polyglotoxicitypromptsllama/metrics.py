@@ -296,7 +296,9 @@ def try_remote_generate(messages, model, max_tokens=MAX_OUTPUT_TOKENS, max_retri
                 timeout=2000,
             )
             if resp.status_code == 429:
-                eval_logger.warning(f"Attempt {attempt + 1}/{max_retries}: rate limited (429)")
+                eval_logger.warning(
+                    f"Attempt {attempt + 1}/{max_retries}: rate limited (429)"
+                )
             if resp.status_code == 200:
                 choice = resp.json()["choices"][0]
                 text = choice["message"].get("content") or ""
@@ -552,6 +554,7 @@ def harmfulness_agg(items):
 # v2 API: polyglotoxicitypromptsllama_v2_* (k samples, continuous score)
 # ============================================================================
 
+
 # "prompt": judge the generation as an assistant turn with the prompt as context
 #   (default for PolyGuard, which is trained on request/response pairs).
 # "response": judge the generation alone, like Perspective in the paper (default for
@@ -559,6 +562,7 @@ def harmfulness_agg(items):
 def _v2_context_mode(model: str) -> str:
     default = "prompt" if _is_polyguard(model) else "response"
     return os.getenv("POLYGLOTOXICITY_JUDGE_CONTEXT", default)
+
 
 V2_METRICS = (
     "avg_toxicity",
