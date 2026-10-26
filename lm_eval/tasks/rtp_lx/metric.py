@@ -99,8 +99,21 @@ def _messages(model: str, prompt: str, completion: str) -> list[dict]:
     return [{"role": "user", "content": build_prompted_judge(prompt, completion)}]
 
 
-def try_remote_generate(messages, model, temperature=0.0, max_tokens=32, max_retries=8):
-    for attempt in range(max_retries):
+def _retry_after(resp) -> float | None:
+    """Seconds to wait from a 429's Retry-After header (capped), if any."""
+    try:
+        return min(float(resp.headers.get("Retry-After", "")), 120.0)
+    except (TypeError, ValueError):
+        return None
+
+
+def try_remote_generate(
+    messages, model, temperature=0.0, max_tokens=32, max_retries=8, max_rate_limited=60
+):
+    """POST to the judge; ``max_retries`` bounds real errors, while HTTP 429s
+    honour Retry-After and are bounded separately by ``max_rate_limited``."""
+    attempt = rate_limited = 0
+    while attempt < max_retries:
         try:
             headers = {
                 "Authorization": f"Bearer {API_KEY}",
@@ -121,6 +134,12 @@ def try_remote_generate(messages, model, temperature=0.0, max_tokens=32, max_ret
             )
             if resp.status_code == 200:
                 return resp.json()["choices"][0]["message"]["content"] or ""
+            if resp.status_code == 429 and rate_limited < max_rate_limited:
+                rate_limited += 1
+                wait = (_retry_after(resp) or 10.0) + 0.5
+                eval_logger.info(f"RTP-LX judge rate-limited; retrying in {wait:.0f}s")
+                time.sleep(wait)
+                continue
             eval_logger.warning(
                 f"RTP-LX judge attempt {attempt + 1}/{max_retries}: "
                 f"status {resp.status_code}: {resp.text[:300]}"
@@ -129,7 +148,8 @@ def try_remote_generate(messages, model, temperature=0.0, max_tokens=32, max_ret
             eval_logger.warning(
                 f"RTP-LX judge attempt {attempt + 1}/{max_retries}: {e}"
             )
-        if attempt < max_retries - 1:
+        attempt += 1
+        if attempt < max_retries:
             time.sleep(min(2**attempt, 60))
     eval_logger.error(f"RTP-LX judge failed after {max_retries} attempts")
     return None
